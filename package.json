@@ -1,0 +1,55 @@
+{
+  "name": "kineticlab",
+  "private": true,
+  "version": "0.12.1",
+  "type": "module",
+  "description": "KineticLab \u2014 Stage 12 real Rapier revolute-joint lever and seesaw experiments",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run typecheck && npm run test && npm run build",
+    "check:structure": "node scripts/verify-structure.mjs",
+    "check:registry": "node scripts/verify-registry.mjs",
+    "check:selection": "node scripts/verify-selection.mjs",
+    "check:placement": "node scripts/verify-placement.mjs",
+    "check:transform": "node scripts/verify-transform.mjs",
+    "check:physics": "node scripts/verify-physics.mjs",
+    "check:physics-runtime": "node scripts/physics-smoke.mjs",
+    "check:collision": "node scripts/verify-collision.mjs",
+    "check:collision-runtime": "node scripts/collision-smoke.mjs",
+    "check:ramp": "node scripts/verify-ramp.mjs",
+    "check:ramp-runtime": "node scripts/ramp-smoke.mjs",
+    "check:domino": "node scripts/verify-domino.mjs",
+    "check:domino-runtime": "node scripts/domino-smoke.mjs",
+    "check:lever": "node scripts/verify-lever.mjs",
+    "check:lever-runtime": "node scripts/lever-smoke.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.4.0",
+    "@react-three/rapier": "^2.2.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.184.0",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.184.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0",
+    "vitest": "^3.2.4",
+    "@dimforge/rapier3d-compat": "0.19.2"
+  }
+}

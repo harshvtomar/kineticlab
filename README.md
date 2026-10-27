@@ -73,3 +73,4 @@ The current JavaScript production chunk is approximately 3.57 MB before gzip; co
 ## Portfolio
 
 This project demonstrates mechanical modelling, interactive 3D development, typed state management and automated verification. See [resume bullets](docs/RESUME_BULLETS.md) and the [preserved Stage 12 technical notes](docs/STAGE_12_SOURCE_README.md).
+

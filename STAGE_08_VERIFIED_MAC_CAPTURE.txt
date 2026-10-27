@@ -1,0 +1,7 @@
+KineticLab Stage 8 verified Mac source snapshot
+This archive was generated from the actual working Mac project, not reconstructed from an earlier ZIP.
+Captured (UTC): 2026-10-26T13:00:57.272834+00:00
+Checks executed successfully: npm run check, npm run check:structure, npm run check:physics-runtime
+Browser acceptance: separately confirmed by project owner, not rerun by this script.
+Scope: Stage 8 source; Stage 9 and Stage 10 NOT implemented.
+Includes source, tests, scripts and configuration; excludes dependencies, build products and secrets.
